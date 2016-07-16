@@ -1,0 +1,25 @@
+.js-irs-0 .irs-bar {
+border-top-color: #777;
+border-bottom-color: #777;
+}
+
+.js-irs-0 .irs-bar-edge {
+border-color: #777;
+}
+
+.js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {
+background: #777;
+}
+
+.js-irs-1 .irs-bar {
+border-top-color: #777;
+border-bottom-color: #777;
+}
+
+.js-irs-1 .irs-bar-edge {
+border-color: #777;
+}
+
+.js-irs-1 .irs-single, .js-irs-1 .irs-bar-edge, .js-irs-1 .irs-bar {
+background: #777;
+}

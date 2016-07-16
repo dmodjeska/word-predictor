@@ -1,0 +1,66 @@
+Word Prediction App: What is the next word in your phrase?
+========================================================
+
+Author: David Modjeska
+
+Date: 6 July 2016
+
+Introduction
+========================================================
+
+* **The problem:** Smartphones are everywhere. People type on them often.
+But text entry on a touchscreen is painful.
+
+* **The solution:** A word prediction app guesses the next word you're going to type. This saves you time and effort. And it's fun.
+
+* **A new app** has been developed for this - word prediction. It's in the prototype stage, where it is stable and fast.
+
+* **The prototype is available** on the Web for you try. The app is built in English, and it can easily be adapted to other languages.
+
+* **The app does more** than just predict. It also gives you insight into its magic --
+you can play with parameters interactively.
+
+Technical Details
+========================================================
+
+* App was trained on 3 document sets -- 100 million words
+from Twitter, news, and blogs. 80% for training, 20% for testing.
+
+* Probabilistic models were built with 1-4 word sequences ('n-grams').
+Models were smoothed statistically for accuracy.
+
+* Optimized app:
+    * 'Trie' data structure is used for speed and space.
+    * Singleton word sequences are filtered out.
+    * Words are stored as index keys to save space.
+    * Probabilities are quantized logarithms to save space.
+
+* App was created in RStudio with quanteda tools and new code.
+On a MacBook Pro, model build time was 4 hours.
+
+Sample App Screen
+========================================================
+
+<img src="app_cap100B.png", style = "width:93%; height: 93%;
+box-shadow:none">
+
+Conclusion
+========================================================
+
+* You can try the app yourself at shinyapps.io.
+Just type a phrase into the box to get a prediction.
+Predictions will appear immediately.
+
+     &nbsp; &nbsp; &nbsp; &nbsp; http://dmodjeska.shinyapps.io/predict_app/
+
+* To get more insight into the app,
+you can play with some of its settings interactively.
+For example, you can set the app to use all word sources or only Twitter.
+
+* With additional support, this app can be developed into a product on the market.
+All that's needed is some statistics, some QA, and some TLC.
+And lots of words.
+
+* We hope that you're intrigued. Thanks for your time!
+
+
