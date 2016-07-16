@@ -42,7 +42,7 @@
 
 ## About
 
-* Inputs for this app's language model were 3 corpora of approximately 200 MB each from Twitter, news, and blogs. 80% samples were used, with 20% reserved for testing. Ngram models were created from these corpora using strings of 1-4 words. Good-Turing smoothing was then applied to account for unseen grams.
+* Inputs for this app's language model were 3 corpora of approximately 200 MB each from Twitter, news, and blogs. (The data comes from [HC Corpora](http://www.corpora.heliohost.org/).) 80% samples were used, with 20% reserved for testing. Ngram models were created from these corpora using strings of 1-4 words. Good-Turing smoothing was then applied to account for unseen grams.
 
 * A series of optimizations was made to produce a working model:
 
