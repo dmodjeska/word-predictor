@@ -1,4 +1,4 @@
-# Word-predictor
+# Word-predictor: language model algorithm and word prediction app
 
 ## Presentation
 
