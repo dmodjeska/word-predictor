@@ -77,4 +77,6 @@
 
 ### Presentation Deck
 
+* [__predict_deck_2.Rpres__](predict_deck_rpres/predict_deck_2.Rpres), [__app_cap100B.png__](predict_deck_rpres/app_cap100B.png) - presentation deck in R Presenter format
+
 ## Instuctions
