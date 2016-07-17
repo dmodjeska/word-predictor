@@ -63,7 +63,7 @@
 
 ### Language Model Algorithm
 
-* [__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize ngram models
+* [__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize n-gram models
 * [__clean_words.R__](clean_words.R) - pre-process a corpus for encoding, punctuation, spacing, contractions, abbreviations, profanity, numbers, URL's, and spelling
 * [__measure.R__](measure.R) - evaluate algorithm against test data
 * [__predict.R__](predict.R) - use the language model to predict the next word in an input phrase
@@ -79,4 +79,8 @@
 
 * [__predict_deck_2.Rpres__](predict_deck_rpres/predict_deck_2.Rpres), [__app_cap100B.png__](predict_deck_rpres/app_cap100B.png) - presentation deck in R Presenter format
 
-## Instuctions
+## Instructions
+
+* __Language model algorithm:__ Run model.R from an R command line or in RStudio, with clean_words.R in the same directory. Parameters can be adjusted at the top of predict.R for debugging, plotting, n-gram length, and training/testing percentages.
+* __Word prediction app:__ Run the application using ui.R or server.R from an R command line or in RStudio, with the other app files in the same directory.
+* __Presentation deck:__ Preview predict_deck_2.Rpres from an R command line or in RStudio, with the other presentation files in the same directory.
