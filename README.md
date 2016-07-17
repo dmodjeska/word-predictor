@@ -71,13 +71,10 @@
 
 ### Word Prediction App
 
- * [__clean_words.R__](clean_words.R), [__predict.R__](predict.R), [__swearWords.txt__](swearWords.txt) - pre-processing and prediction files from the language model algorithm
-* [__en_US.blogs.80trie.rds__](en_US.blogs.80trie.rds), [__en_US.twitter.80trie.rds__](en_US.twitter.80trie.rds), [__en_US.news.80trie.rds__](en_US.news.80trie.rds), [__en_US.combo.80trie.rds__](en_US.combo.80trie.rds) - language models for blogs, Twitter, news, and combined corpora
+* [__clean_words.R__](clean_words.R), [__predict.R__](predict.R), [__swearWords.txt__](swearWords.txt) - pre-processing and prediction files from the language model algorithm
+* [__en_US.blogs.80trie.rds__](predict_app/en_US.blogs.80trie.rds), [__en_US.twitter.80trie.rds__](predict_app/en_US.twitter.80trie.rds), [__en_US.news.80trie.rds__](predict_app/en_US.news.80trie.rds), [__en_US.combo.80trie.rds__](predict_app/en_US.combo.80trie.rds) - language models for blogs, Twitter, news, and combined corpora
 * [__ui.R__](predict_app/ui.R), [__server.R__](predict_app/server.R), [__styles.css__](predict_app/styles.css), [__smartphone65.png__](predict_app/www/smartphone65.png) - UI and server files for the Shiny app
 
 ### Presentation Deck
-
-[__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize ngram models
-[__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize ngram models
 
 ## Instuctions
