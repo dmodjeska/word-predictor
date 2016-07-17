@@ -64,13 +64,20 @@
 ### Language Model Algorithm
 
 * [__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize ngram models
-* __clean_words.R__ - pre-process a corpus for encoding, punctuation, spacing, contractions, abbreviations, profanity, numbers, URL's, and spelling
+* [__clean_words.R__](clean_words.R) - pre-process a corpus for encoding, punctuation, spacing, contractions, abbreviations, profanity, numbers, URL's, and spelling
 * [__measure.R__](measure.R) - evaluate algorithm against test data
 * [__predict.R__](predict.R) - use the language model to predict the next word in an input phrase
-* [__swearwords.txt__](swearwords.txt) - a list of profanity words
+* [__swearWords.txt__](swearWords.txt) - a list of profanity
 
 ### Word Prediction App
 
+ * [__clean_words.R__](clean_words.R), [__predict.R__](predict.R), [__swearWords.txt__](swearWords.txt) - pre-processing and prediction files from the language model algorithm
+* [__en_US.blogs.80trie.rds__](en_US.blogs.80trie.rds), [__en_US.twitter.80trie.rds__](en_US.twitter.80trie.rds), [__en_US.news.80trie.rds__](en_US.news.80trie.rds), [__en_US.combo.80trie.rds__](en_US.combo.80trie.rds) - language models for blogs, Twitter, news, and combined corpora
+* [__ui.R__](predict_app/ui.R), [__server.R__](predict_app/server.R), [__styles.css__](predict_app/styles.css), [__smartphone65.png__](predict_app/www/smartphone65.png) - UI and server files for the Shiny app
+
 ### Presentation Deck
+
+[__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize ngram models
+[__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize ngram models
 
 ## Instuctions
