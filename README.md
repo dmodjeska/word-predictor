@@ -61,4 +61,16 @@
 
 ## Files
 
+### Language Model Algorithm
+
+* [__model.R__](model.R) - get, pre-process, and tokenize corpora; build, smooth, and optimize ngram models
+* __clean_words.R__ - pre-process a corpus for encoding, punctuation, spacing, contractions, abbreviations, profanity, numbers, URL's, and spelling
+* [__measure.R__](measure.R) - evaluate algorithm against test data
+* [__predict.R__](predict.R) - use the language model to predict the next word in an input phrase
+* [__swearwords.txt__](swearwords.txt) - a list of profanity words
+
+### Word Prediction App
+
+### Presentation Deck
+
 ## Instuctions
